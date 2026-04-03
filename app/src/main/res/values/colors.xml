@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Основна палітра (з Figma дизайну) ───────────────────── -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+
+    <!-- ── Акценти за типом транзакції ──────────────────────────── -->
+    <color name="expense_red">#D32F2F</color>
+    <color name="expense_red_light">#FFEBEE</color>
+    <color name="income_green">#2E7D32</color>
+    <color name="income_green_dark">#1B5E20</color>
+    <color name="income_green_light">#E8F5E9</color>
+
+    <!-- ── Кольори категорій ────────────────────────────────────── -->
+    <color name="category_orange">#EF6C00</color>
+    <color name="category_orange_light">#FFF3E0</color>
+    <color name="category_purple">#6A1B9A</color>
+    <color name="category_purple_light">#F3E5F5</color>
+    <color name="category_orange_accent">#FF6D00</color>
+
+    <!-- ── Текст ───────────────────────────────────────────────── -->
+    <color name="text_primary">#1A1C1E</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="text_hint">#9AA0A6</color>
+
+    <!-- ── Фони та поверхні ────────────────────────────────────── -->
+    <color name="background">#FAFCFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F4F6F9</color>
+    <color name="divider">#E1E3E6</color>
+    <color name="page_background">#E2E5EA</color>
+
+    <!-- ── Системні ────────────────────────────────────────────── -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- ── Bottom Navigation ───────────────────────────────────── -->
+    <color name="nav_active">#1565C0</color>
+    <color name="nav_inactive">#9AA0A6</color>
+
+</resources>

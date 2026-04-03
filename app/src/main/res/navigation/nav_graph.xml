@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <!-- ══ Dashboard ══════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.financetracker.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard" />
+
+    <!-- ══ Expenses ═══════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.financetracker.ui.expenses.ExpensesFragment"
+        android:label="@string/nav_expenses">
+
+        <action
+            android:id="@+id/action_expenses_to_addExpense"
+            app:destination="@id/addExpenseFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_expenses_to_analytics"
+            app:destination="@id/expenseAnalyticsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.financetracker.ui.expenses.AddExpenseFragment"
+        android:label="@string/add_expense" />
+
+    <fragment
+        android:id="@+id/expenseAnalyticsFragment"
+        android:name="com.financetracker.ui.expenses.ExpenseAnalyticsFragment"
+        android:label="@string/tab_analytics" />
+
+    <!-- ══ Income ═════════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.financetracker.ui.income.IncomeFragment"
+        android:label="@string/nav_income">
+
+        <action
+            android:id="@+id/action_income_to_addIncome"
+            app:destination="@id/addIncomeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_income_to_analytics"
+            app:destination="@id/incomeAnalyticsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addIncomeFragment"
+        android:name="com.financetracker.ui.income.AddIncomeFragment"
+        android:label="@string/add_income" />
+
+    <fragment
+        android:id="@+id/incomeAnalyticsFragment"
+        android:name="com.financetracker.ui.income.IncomeAnalyticsFragment"
+        android:label="@string/tab_analytics" />
+
+    <!-- ══ Settings ═══════════════════════════════════════════════ -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.financetracker.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings">
+
+        <action
+            android:id="@+id/action_settings_to_categories"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.financetracker.ui.settings.CategoriesFragment"
+        android:label="@string/manage_categories" />
+
+</navigation>
