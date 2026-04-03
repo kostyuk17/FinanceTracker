@@ -29,8 +29,8 @@ object MockDataRepository {
     private val users = mutableListOf(
         User(
             id = 1L,
-            username = "Святослав",
-            email = "sviat@gmail.com",
+            username = "Олександр",
+            email = "oleksandr.kostyuk@gmail.com",
             passwordHash = hashPassword("123456"),
             currency = "UAH",
             createdAt = timestamp(2025, 1, 1)

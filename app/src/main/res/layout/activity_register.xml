@@ -144,13 +144,13 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnRegister"
             style="@style/Widget.FinanceTracker.Button.Primary"
-            android:layout_width="0dp"
-            android:layout_height="56dp"
+            android:layout_width="367dp"
+            android:layout_height="69dp"
             android:layout_marginTop="32dp"
             android:text="@string/btn_register"
-            app:layout_constraintTop_toBottomOf="@id/tilPasswordConfirm"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/tilPasswordConfirm" />
 
         <!-- ── Прогрес ────────────────────────────────────────── -->
         <ProgressBar

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- ── Загальні ────────────────────────────────────────────── -->
     <string name="app_name">FinanceTracker</string>
     <string name="currency_symbol">₴</string>
     <string name="save">Зберегти</string>
@@ -14,7 +12,6 @@
     <string name="search_hint">Пошук…</string>
     <string name="loading">Завантаження…</string>
 
-    <!-- ── Авторизація ─────────────────────────────────────────── -->
     <string name="login_title">Вхід</string>
     <string name="register_title">Реєстрація</string>
     <string name="email_hint">Email</string>
@@ -27,7 +24,6 @@
     <string name="link_to_login">Вже є акаунт? Увійти</string>
     <string name="welcome_message">Привіт, %s!</string>
 
-    <!-- ── Помилки валідації ────────────────────────────────────── -->
     <string name="error_email_empty">Введіть email</string>
     <string name="error_email_invalid">Невірний формат email</string>
     <string name="error_password_empty">Введіть пароль</string>
@@ -41,72 +37,76 @@
     <string name="error_amount_zero">Сума має бути більше 0</string>
     <string name="error_category_not_selected">Оберіть категорію</string>
 
-    <!-- ── Навігація (BottomNav) ────────────────────────────────── -->
     <string name="nav_dashboard">Дашборд</string>
     <string name="nav_expenses">Витрати</string>
     <string name="nav_income">Доходи</string>
-    <string name="nav_settings">Налаштування</string>
+    <string name="nav_settings">Інше</string>
 
-    <!-- ── Дашборд ─────────────────────────────────────────────── -->
     <string name="total_balance">Загальний баланс</string>
     <string name="income_this_month">Доходи за місяць</string>
     <string name="expenses_this_month">Витрати за місяць</string>
     <string name="recent_transactions">Останні транзакції</string>
     <string name="last_7_days">Останні 7 днів</string>
 
-    <!-- ── Витрати / Доходи ────────────────────────────────────── -->
-    <string name="add_expense">Додати витрату</string>
-    <string name="add_income">Додати дохід</string>
+    <string name="add_expense">Нова витрата</string>
+    <string name="add_income">Новий дохід</string>
     <string name="edit_expense">Редагувати витрату</string>
     <string name="edit_income">Редагувати дохід</string>
     <string name="amount_hint">Сума</string>
     <string name="note_hint">Нотатка (необов\'язково)</string>
-    <string name="select_category">Оберіть категорію</string>
-    <string name="select_date">Оберіть дату</string>
+    <string name="select_category">Категорія</string>
+    <string name="select_date">Дата</string>
     <string name="no_transactions">Транзакцій ще немає</string>
     <string name="add_first_transaction">Додайте першу транзакцію</string>
+    <string name="save_expense">Зберегти витрату</string>
+    <string name="save_income">Зберегти дохід</string>
 
-    <!-- ── Фільтри ─────────────────────────────────────────────── -->
     <string name="filter_week">Тиждень</string>
     <string name="filter_month">Місяць</string>
     <string name="filter_quarter">Квартал</string>
     <string name="filter_year">Рік</string>
-    <string name="filter_custom">Обрати дати</string>
+    <string name="filter_custom">Дати</string>
     <string name="filter_all">Усі</string>
 
-    <!-- ── Аналітика ───────────────────────────────────────────── -->
     <string name="tab_list">Список</string>
     <string name="tab_analytics">Аналітика</string>
-    <string name="total_for_period">Всього за період</string>
+    <string name="total_for_period">Загальні витрати за період</string>
+    <string name="total_income_for_period">Загальний дохід за період</string>
     <string name="top_categories">Топ категорії</string>
     <string name="expenses_by_category">Витрати за категоріями</string>
     <string name="income_by_category">Доходи за категоріями</string>
-    <string name="daily_dynamics">Динаміка по днях</string>
+    <string name="daily_dynamics">Динаміка витрат по днях</string>
     <string name="monthly_dynamics">Динаміка по місяцях</string>
     <string name="income_vs_expenses">Доходи vs Витрати</string>
-    <string name="average_monthly_income">Середньомісячний дохід</string>
+    <string name="average_monthly_income">Середньомісячний</string>
     <string name="export_excel">Експортувати Excel</string>
 
-    <!-- ── Налаштування ────────────────────────────────────────── -->
-    <string name="settings_profile">Профіль</string>
-    <string name="settings_appearance">Вигляд</string>
-    <string name="settings_data">Дані</string>
-    <string name="settings_about">Про додаток</string>
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_profile">ПРОФІЛЬ</string>
+    <string name="settings_data">ДАНІ</string>
+    <string name="settings_about">ПРО ДОДАТОК</string>
     <string name="change_name">Змінити ім\'я</string>
     <string name="change_password">Змінити пароль</string>
     <string name="old_password_hint">Старий пароль</string>
     <string name="new_password_hint">Новий пароль</string>
     <string name="manage_categories">Управління категоріями</string>
     <string name="export_data">Експорт даних</string>
-    <string name="clear_all_data">Очистити всі транзакції</string>
+    <string name="export_data_subtitle">Резервна копія у JSON</string>
+    <string name="clear_all_data">Очистити транзакції</string>
+    <string name="clear_all_data_subtitle">Видалити всі записи</string>
     <string name="clear_data_confirm">Ви впевнені, що хочете видалити всі транзакції? Цю дію неможливо скасувати.</string>
     <string name="logout">Вийти з акаунту</string>
     <string name="logout_confirm">Ви впевнені, що хочете вийти?</string>
     <string name="app_version">Версія %s</string>
     <string name="developer_name">Розробник: FinanceTracker Team</string>
     <string name="app_description">Додаток для особистого обліку фінансів</string>
+    <string name="password_changed">Пароль змінено</string>
+    <string name="name_changed">Ім\'я змінено</string>
+    <string name="data_cleared">Транзакції видалено</string>
+    <string name="wrong_old_password">Невірний старий пароль</string>
+    <string name="categories_count">%d категорій</string>
+    <string name="last_changed">Останній раз змінено %s</string>
 
-    <!-- ── Категорії (витрати) ──────────────────────────────────── -->
     <string name="cat_food">Їжа</string>
     <string name="cat_transport">Транспорт</string>
     <string name="cat_entertainment">Розваги</string>
@@ -115,23 +115,19 @@
     <string name="cat_clothing">Одяг</string>
     <string name="cat_cafe">Кафе / Ресторани</string>
     <string name="cat_other_expense">Інше</string>
-
-    <!-- ── Категорії (доходи) ──────────────────────────────────── -->
     <string name="cat_salary">Зарплата</string>
     <string name="cat_freelance">Фріланс</string>
     <string name="cat_gifts">Подарунки</string>
     <string name="cat_business">Бізнес</string>
     <string name="cat_other_income">Інше</string>
 
-    <!-- ── Управління категоріями ───────────────────────────────── -->
     <string name="add_category">Додати категорію</string>
     <string name="edit_category">Редагувати категорію</string>
     <string name="category_name_hint">Назва категорії</string>
-    <string name="select_color">Оберіть колір</string>
-    <string name="select_type">Оберіть тип</string>
+    <string name="select_color">Колір</string>
+    <string name="select_type">Тип</string>
     <string name="type_expense">Витрата</string>
     <string name="type_income">Дохід</string>
     <string name="delete_category_confirm">Видалити категорію \"%s\"?</string>
     <string name="category_in_use_warning">Ця категорія використовується у %d транзакціях. Видалення може вплинути на ваші дані.</string>
-
 </resources>
