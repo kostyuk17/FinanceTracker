@@ -19,7 +19,6 @@
         android:theme="@style/Theme.FinanceTracker"
         tools:targetApi="35">
 
-
         <!-- Екран авторизації — точка входу -->
         <activity
             android:name=".ui.auth.LoginActivity"

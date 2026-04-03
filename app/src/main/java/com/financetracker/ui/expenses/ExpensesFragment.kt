@@ -83,6 +83,9 @@ class ExpensesFragment : Fragment() {
         fabAddExpense.setOnClickListener {
             findNavController().navigate(R.id.action_expenses_to_addExpense)
         }
+        view?.findViewById<android.widget.ImageView>(R.id.btnAnalytics)?.setOnClickListener {
+            findNavController().navigate(R.id.action_expenses_to_analytics)
+        }
     }
 
     // ════════════════════════════════════════════════════════════════
