@@ -2,7 +2,6 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
@@ -70,11 +69,11 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etEmail"
-                android:layout_width="846dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionNext"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
+                android:imeOptions="actionNext"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp" />
 
@@ -112,13 +111,13 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnLogin"
             style="@style/Widget.FinanceTracker.Button.Primary"
-            android:layout_width="362dp"
-            android:layout_height="63dp"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
             android:layout_marginTop="32dp"
             android:text="@string/btn_login"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilPassword"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tilPassword" />
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <!-- ── Прогрес ────────────────────────────────────────── -->
         <ProgressBar
